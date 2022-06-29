@@ -4138,7 +4138,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 }
 break
 	    case 'donasi': case 'donate': {
-              m.reply(`──「 DONATE 」──\n\nHi ${pushname} 👋🏻\n\`\`\`DANA : ${dana}\`\`\`\n\`\`\`Saweria : https://saweria.co/SeanChann\`\`\`\nTerimakasih yang sudah donasi untuk perkembangan bot ini _^\n──「 THX FOR YOU ! 」──`)
+              m.reply(`──「 DONATE 」──\n\nHi ${pushname} 👋🏻\n\`\`\`DANA : ${dana}\`\`\`\n\`\`\`Saweria : https://saweria.co/SeanChann\`\`\`\nTerimakasih yang sudah donasi untuk perkembangan bot ini _^\n──「 THX FOR YOU !!! 」──`)
             }
             break
             default:
