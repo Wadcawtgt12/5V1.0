@@ -296,11 +296,6 @@ global.ccomannya = `
  » gaycek
  » cekgay
  » lesbicek
- » halah
- » hilih
- » huluh
- » heleh
- » holoh
  » jadian
  » jodohku
  » delttt
