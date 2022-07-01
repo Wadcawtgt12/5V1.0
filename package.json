@@ -55,7 +55,7 @@
     "pino": "^7.0.5",
     "qrcode-terminal": "^0.12.0",
     "request": "^2.88.2",
-    "node-os-utils": "^1.3.6",        
+    "node-os-utils": "^1.3.6",
     "remove.bg": "^1.3.0",
     "scrape-primbon": "^1.1.0",
     "xzons-api": "^0.1.4",
