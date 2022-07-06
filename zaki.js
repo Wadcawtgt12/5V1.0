@@ -3842,13 +3842,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `${footer}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube',
-                                    url: `${yt}`
-                                }
-                            }, {
-                            	urlButton: {
-                                displayText: 'Group Bot',
-                                    url: `${gc}`
+                                    displayText: 'Web',
+                                    url: `https://animeforallhuman.blogspot.com/`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3916,12 +3911,12 @@ txt = ` _*Hi Kak ${pushname} ${ucapanWaktu} 👋.*_
  • Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
  • Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
 `
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: txt.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/Sean.jpg') }, hydratedFooterText: `${footer1}`, hydratedButtons: [{ urlButton: { displayText: 'Web', url: 'https://setiawangmg.blogspot.com'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: 'Donate', id: 'donate', } }, { quickReplyButton: { displayText: 'List Menu', id: 'allmenu', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: txt.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/Sean.jpg') }, hydratedFooterText: `${footer1}`, hydratedButtons: [{ urlButton: { displayText: 'Web', url: 'https://animeforallhuman.blogspot.com/'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: 'Donate', id: 'donate', } }, { quickReplyButton: { displayText: 'List Menu', id: 'allmenu', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
   zaki.relayMessage( m.chat, template.message, { messageId: template.key.id } )
 break
 case 'command': case 'allmenu': case 'listmenu': {
 var butonnya =
-[{ urlButton: { displayText: 'Web', url: 'https://setiawangmg.blogspot.com'} }, 
+[{ urlButton: { displayText: 'Web', url: 'https://animeforallhuman.blogspot.com/'} }, 
 { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, 
 { quickReplyButton: { displayText: 'Sewa Bot', id: 'sewabot', } }]
 /*const templateMessage = {
@@ -3938,7 +3933,7 @@ zaki.sendMessage(m.chat, templateMessage)
 // MODEL MENU SEKARANG : LOC \\
 
 //━━━━━━━━━━━━━━━[ MENU LOC ]━━━━━━━━━━━━━━━\\
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: `${ccomannya}`, locationMessage: { jpegThumbnail: fs.readFileSync('./media/Sean.jpg') }, hydratedFooterText: `${footer}`, hydratedButtons: [{ urlButton: { displayText: 'Web', url: 'https://setiawangmg.blogspot.com'} }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: `${ccomannya}`, locationMessage: { jpegThumbnail: fs.readFileSync('./media/Sean.jpg') }, hydratedFooterText: `${footer}`, hydratedButtons: [{ urlButton: { displayText: 'Web', url: 'https://animeforallhuman.blogspot.com/'} }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
   zaki.relayMessage( m.chat, template.message, { messageId: template.key.id } )
 
   
@@ -3952,7 +3947,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Web',
-                                    url: 'https://setiawangmg.blogspot.com'
+                                    url: 'https://animeforallhuman.blogspot.com/'
                                 }
                             }, {
                                 callButton: {
