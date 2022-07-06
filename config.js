@@ -12,7 +12,7 @@ global.autoReadAll = true
 // Ganti Sewajarnya
 global.owner = ['62895411143170']
 global.pengguna = 'Sean'
-global.premium = []
+global.premium = ['62895411143170']
 global.author = 'Sean'
 global.pemilik = ['62895411143170'] 
 global.ownernomer = '62895411143170'
@@ -34,9 +34,9 @@ global.gopay = '000000'
 global.wame = 'wa.me/62895411143170'
 global.email = 'wadcawtgt@gmail.com'
 global.region = 'Indonesia'
-global.link = 'https://setiawangmg.blogspot.com/'
+global.link = 'https://shorturl.at/git02'
 global.sc = 'https://api.whatsapp.com/send/?phone=628816563424&text&app_absent=0'
-global.packname = '"{\nAuthor: Tia"\n"Bot Number: 62895411143170"\n"Bot Name: Sean - MD"\n"Web: https://setiawangmg.blogspot.com/"\n}' 
+global.packname = '"{\nAuthor: Tia"\n"Bot Number: 62895411143170"\n"Bot Name: Sean - MD"\n"Web: https://animeforallhuman.blogspot.com/"\n}' 
 global.author = '' 
 global.sessionName = 'session'
 global.prefa = ['#','!','/']
